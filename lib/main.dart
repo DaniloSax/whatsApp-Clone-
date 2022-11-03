@@ -6,10 +6,10 @@ void main() {
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch().copyWith(
-          primary: Colors.teal[800],
+          primary: Colors.grey[800],
         ),
         indicatorColor: Colors.green,
-        scaffoldBackgroundColor: Colors.teal[900],
+        scaffoldBackgroundColor: Colors.grey[900],
         textTheme: const TextTheme(
           bodySmall: TextStyle(color: Colors.white38),
           bodyLarge: TextStyle(color: Colors.white),
