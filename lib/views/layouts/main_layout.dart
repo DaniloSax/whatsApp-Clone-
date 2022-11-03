@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class MainLayout extends StatelessWidget {
   late List<String> tabs = [];
@@ -14,6 +12,8 @@ class MainLayout extends StatelessWidget {
       length: tabs.length,
       child: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.grey[800],
+          title: const Text('WathsApp Clone'),
           bottom: TabBar(
             indicatorWeight: 3,
             labelColor: Colors.green,
